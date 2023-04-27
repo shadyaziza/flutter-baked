@@ -1,0 +1,14 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "furni_api",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    }
+  ],
+  "generated": "2023-04-27T23:35:10.343700Z",
+  "generator": "pub",
+  "generatorVersion": "2.19.2"
+}

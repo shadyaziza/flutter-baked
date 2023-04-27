@@ -1,0 +1,5 @@
+name: furni_api
+description: >-
+  Server package for furni app
+environment:
+  sdk: ">=2.19.0 <3.0.0" # dart sdk constraints
