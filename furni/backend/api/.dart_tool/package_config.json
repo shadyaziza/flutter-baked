@@ -2,13 +2,49 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "alfred",
+      "rootUri": "file:///Users/shadyaziza/.pub-cache/hosted/pub.dev/alfred-1.1.0+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "meta",
+      "rootUri": "file:///Users/shadyaziza/.pub-cache/hosted/pub.dev/meta-1.9.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "mime",
+      "rootUri": "file:///Users/shadyaziza/.pub-cache/hosted/pub.dev/mime-1.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "mime_type",
+      "rootUri": "file:///Users/shadyaziza/.pub-cache/hosted/pub.dev/mime_type-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path",
+      "rootUri": "file:///Users/shadyaziza/.pub-cache/hosted/pub.dev/path-1.8.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "queue",
+      "rootUri": "file:///Users/shadyaziza/.pub-cache/hosted/pub.dev/queue-3.1.0+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "furni_api",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-04-27T23:35:10.343700Z",
+  "generated": "2023-04-27T23:35:46.975300Z",
   "generator": "pub",
   "generatorVersion": "2.19.2"
 }

@@ -3,3 +3,5 @@ description: >-
   Server package for furni app
 environment:
   sdk: ">=2.19.0 <3.0.0" # dart sdk constraints
+dependencies:
+  alfred: ^1.1.0+1
