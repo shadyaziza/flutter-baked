@@ -1,0 +1,225 @@
+{
+  "funritureList": [
+    {
+      "id": 1,
+      "type": 1,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Ante",
+      "price": 713.59,
+      "style": "scandinavian",
+      "height": 45.09,
+      "width": 8.57,
+      "depth": 28.81
+    },
+    {
+      "id": 2,
+      "type": 5,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Sagittis",
+      "price": 1938.66,
+      "style": "mid-century",
+      "height": 93.67,
+      "width": 0.1,
+      "depth": 12.3
+    },
+    {
+      "id": 3,
+      "type": 1,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Hac",
+      "price": 9863.97,
+      "style": "modern",
+      "height": 65.58,
+      "width": 61.67,
+      "depth": 45.09
+    },
+    {
+      "id": 4,
+      "type": 2,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Amet",
+      "price": 5728.56,
+      "style": "coastal",
+      "height": 50.23,
+      "width": 48.23,
+      "depth": 47.95
+    },
+    {
+      "id": 5,
+      "type": 2,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Leo",
+      "price": 7163.9,
+      "style": "traditional",
+      "height": 67.51,
+      "width": 37.22,
+      "depth": 86.42
+    },
+    {
+      "id": 6,
+      "type": 3,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Nulla",
+      "price": 1814.54,
+      "style": "bohemian",
+      "height": 19.17,
+      "width": 5.28,
+      "depth": 26.26
+    },
+    {
+      "id": 7,
+      "type": 4,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Pulvinar",
+      "price": 9823.17,
+      "style": "traditional",
+      "height": 43.37,
+      "width": 95.1,
+      "depth": 18.02
+    },
+    {
+      "id": 8,
+      "type": 5,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Duis",
+      "price": 2834.79,
+      "style": "coastal",
+      "height": 31.15,
+      "width": 46.24,
+      "depth": 88.53
+    },
+    {
+      "id": 9,
+      "type": 4,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Integer",
+      "price": 5509.06,
+      "style": "modern",
+      "height": 10.91,
+      "width": 25.67,
+      "depth": 5.44
+    },
+    {
+      "id": 10,
+      "type": 2,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Convallis",
+      "price": 7703.92,
+      "style": "bohemian",
+      "height": 55.97,
+      "width": 31.69,
+      "depth": 44.12
+    },
+    {
+      "id": 11,
+      "type": 3,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Massa",
+      "price": 8097.05,
+      "style": "industrial",
+      "height": 32.51,
+      "width": 29.83,
+      "depth": 26.8
+    },
+    {
+      "id": 12,
+      "type": 5,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Proin",
+      "price": 709.94,
+      "style": "bohemian",
+      "height": 69.62,
+      "width": 18.11,
+      "depth": 15.15
+    },
+    {
+      "id": 13,
+      "type": 2,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Blandit",
+      "price": 6900.54,
+      "style": "bohemian",
+      "height": 23.52,
+      "width": 27.02,
+      "depth": 63.52
+    },
+    {
+      "id": 14,
+      "type": 3,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Congue",
+      "price": 1917.7,
+      "style": "mid-century",
+      "height": 50.46,
+      "width": 80.04,
+      "depth": 79.02
+    },
+    {
+      "id": 15,
+      "type": 4,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Mecenas",
+      "price": 5365.61,
+      "style": "contemporary",
+      "height": 52.03,
+      "width": 91.16,
+      "depth": 14.14
+    },
+    {
+      "id": 16,
+      "type": 4,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Quisque",
+      "price": 2169.28,
+      "style": "contemporary",
+      "height": 98.58,
+      "width": 40.47,
+      "depth": 5.87
+    },
+    {
+      "id": 17,
+      "type": 3,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Dignissim",
+      "price": 5176.89,
+      "style": "industrial",
+      "height": 38.82,
+      "width": 58.04,
+      "depth": 59.67
+    },
+    {
+      "id": 18,
+
+      "type": 1,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Proin",
+      "price": 5551.03,
+      "style": "industrial",
+      "height": 81.49,
+      "width": 45.09,
+      "depth": 73.89
+    },
+    {
+      "id": 19,
+      "type": 1,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Shoncus",
+      "price": 872.01,
+      "style": "mid-century",
+      "height": 92.54,
+      "width": 96.39,
+      "depth": 65.27
+    },
+    {
+      "id": 20,
+      "type": 4,
+      "imageUrl": "https://source.unsplash.com/collection/1163637/480x480",
+      "name": "Sollicitudin",
+      "price": 3366.51,
+      "style": "scandinavian",
+      "height": 69.6,
+      "width": 82.94,
+      "depth": 37.3
+    }
+  ]
+}
