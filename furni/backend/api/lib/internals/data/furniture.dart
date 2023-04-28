@@ -107,8 +107,7 @@ class MockDB {
   late Map<String, dynamic> parsedJson;
   MockDB() {
     final jsonString =
-        File('${Directory.current.path}/internals/data/mock.json')
-            .readAsStringSync();
+        File('${Directory.current.path}/../../db/mock.json').readAsStringSync();
 
     parsedJson = JsonDecoder().convert(jsonString);
   }
