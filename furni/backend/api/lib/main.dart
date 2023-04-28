@@ -1,11 +1,10 @@
 import 'package:alfred/alfred.dart';
+import 'package:furni_api/handlers/handlers.dart';
 
 void main() {
   final app = Alfred();
 
-  app.get('/hello', (req, res) {
-    res.json({'message': 'Hello, Furni 👋'});
-  });
+  app.get('/healthcheck', healthcheck);
 
   app.listen(4242);
 }
