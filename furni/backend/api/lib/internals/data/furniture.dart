@@ -51,7 +51,7 @@ class FurnitureListItem {
 
 /// Data model to view details on multiple furniture items
 ///
-class FurnitureItemDetail {
+class FurnitureItemDetails {
   final int id;
   int type; // references FurnitureType.id
   String name;
@@ -62,7 +62,7 @@ class FurnitureItemDetail {
   double depth;
   String imageUrl;
 
-  FurnitureItemDetail({
+  FurnitureItemDetails({
     required this.id,
     required this.type,
     required this.name,
@@ -74,8 +74,8 @@ class FurnitureItemDetail {
     required this.imageUrl,
   });
 
-  factory FurnitureItemDetail.fromJson(Map<String, dynamic> json) {
-    return FurnitureItemDetail(
+  factory FurnitureItemDetails.fromJson(Map<String, dynamic> json) {
+    return FurnitureItemDetails(
       id: json['id'],
       name: json['name'],
       type: json['type'],
@@ -105,15 +105,25 @@ class FurnitureItemDetail {
 
 class MockDB {
   late Map<String, dynamic> parsedJson;
-  MockDB() {
+
+  static MockDB? _instance;
+
+  MockDB._() {
     final jsonString =
         File('${Directory.current.path}/../../db/mock.json').readAsStringSync();
 
     parsedJson = JsonDecoder().convert(jsonString);
   }
 
-  FurnitureItemDetail getFurnitureItemDetails(int id) {
-    return FurnitureItemDetail.fromJson((parsedJson['funritureList'] as List)
+  factory MockDB.init() {
+    if (_instance == null) {
+      _instance = MockDB._();
+    }
+    return _instance!;
+  }
+
+  FurnitureItemDetails getFurnitureItemDetails(int id) {
+    return FurnitureItemDetails.fromJson((parsedJson['funritureList'] as List)
         .firstWhere((item) => item['id'] == id));
   }
 
