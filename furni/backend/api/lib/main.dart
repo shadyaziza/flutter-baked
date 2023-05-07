@@ -8,7 +8,7 @@ void main() {
 
   app.get(
     '/healthcheck',
-    (req, res) => healthcheckHandler(req, res, db),
+    healthcheckHandler,
   );
   app.get(
     '/furnitures',

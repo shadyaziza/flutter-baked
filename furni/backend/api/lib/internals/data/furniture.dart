@@ -122,9 +122,15 @@ class MockDB {
     return _instance!;
   }
 
-  FurnitureItemDetails getFurnitureItemDetails(int id) {
-    return FurnitureItemDetails.fromJson((parsedJson['funritureList'] as List)
-        .firstWhere((item) => item['id'] == id));
+  FurnitureItemDetails? getFurnitureItemDetails(int id) {
+    final jsonItem = (parsedJson['funritureList'] as List).firstWhere(
+      (item) => item['id'] == id,
+      orElse: () => null,
+    );
+
+    if (jsonItem == null) return null;
+
+    return FurnitureItemDetails.fromJson(jsonItem);
   }
 
   List<FurnitureListItem> getAllFurnitures() {
