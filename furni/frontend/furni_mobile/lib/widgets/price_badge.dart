@@ -3,7 +3,9 @@ part of widgets;
 class PriceBadge extends StatelessWidget {
   const PriceBadge({
     super.key,
+    required this.price,
   });
+  final double price;
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +16,7 @@ class PriceBadge extends StatelessWidget {
       ),
       width: 72,
       height: 35,
-      child: const Center(child: Text('100\$')),
+      child: Center(child: Text('$price\$')),
     );
   }
 }

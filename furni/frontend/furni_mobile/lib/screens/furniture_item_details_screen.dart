@@ -33,7 +33,9 @@ class FurnitureItemDetailsScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: const [
-                  PriceBadge(),
+                  PriceBadge(
+                    price: 200,
+                  ),
                 ],
               ),
             ),
