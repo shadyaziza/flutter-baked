@@ -10,14 +10,14 @@ FutureOr<dynamic> healthcheckHandler(HttpRequest req, HttpResponse resp) {
 }
 
 FutureOr<dynamic> getFuntiruresHandler(
-    HttpRequest req, HttpResponse resp, MockDB db) {
-  final furnitureList = db.getAllFurnitures();
+    HttpRequest req, HttpResponse resp, DB db) async {
+  final furnitureList = await db.getAllFurnitures();
   resp.statusCode = 200; // set the status code
   return json.encode({'furnitures': furnitureList});
 }
 
 FutureOr<dynamic> getFurnitureDetailsHandler(
-    HttpRequest req, HttpResponse resp, MockDB db) {
+    HttpRequest req, HttpResponse resp, DB db) async {
   final strId = req.params['id'];
   final id = int.tryParse(strId);
 
@@ -37,7 +37,7 @@ FutureOr<dynamic> getFurnitureDetailsHandler(
         .encode({'message': 'could not find furniture item of id = $id'});
   }
 
-  final furnitureItem = db.getFurnitureItemDetails(id);
+  final furnitureItem = await db.getFurnitureItemDetails(id);
 
   if (furnitureItem == null) {
     // if we can not find the requested item in the database

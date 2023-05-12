@@ -2,9 +2,10 @@ import 'package:alfred/alfred.dart';
 import 'package:furni_api/handlers/handlers.dart';
 import 'package:furni_api/internals/data/furniture.dart';
 
-void main() {
+Future<void> main() async {
   final app = Alfred();
-  final db = MockDB.init();
+  final db = DB.init();
+  await db.connection.open();
 
   app.get(
     '/healthcheck',
