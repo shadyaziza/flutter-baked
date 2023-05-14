@@ -42,9 +42,9 @@ class FurnitureItemDetailsScreen extends ConsumerWidget {
                             'https://source.unsplash.com/collection/1163637/480x480')),
                     borderRadius: BorderRadius.circular(30),
                   ),
-                  child: Column(
+                  child: const Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: const [
+                    children: [
                       PriceBadge(
                         price: 200,
                       ),
@@ -109,8 +109,8 @@ class FurnitureItemDetailsScreen extends ConsumerWidget {
                 const SizedBox(
                   height: 8,
                 ),
-                Row(
-                  children: const [
+                const Row(
+                  children: [
                     CircleAvatar(
                       radius: 15,
                       backgroundColor: Color(0xffD9752A),
